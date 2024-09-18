@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         try {
             // Replace 'your-api-endpoint' with your actual API endpoint
-            const response = await fetch('http://localhost:3000/submit-form', {
+            const response = await fetch('/api/submit-form', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
     downloadResumeBtn.addEventListener('click', (e) => {
         e.preventDefault();
         // Replace 'path-to-your-resume.pdf' with the actual path to your resume file
-        window.open('vanshika_resume.pdf', '_blank');
+        window.open('kushank resume.pdf', '_blank');
     });
 
     // Add a simple animation to project items when they come into view
