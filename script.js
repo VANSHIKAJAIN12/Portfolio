@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
     downloadResumeBtn.addEventListener('click', (e) => {
         e.preventDefault();
         // Replace 'path-to-your-resume.pdf' with the actual path to your resume file
-        window.open('kushank resume.pdf', '_blank');
+        window.open('vanshika_resume.pdf', '_blank');
     });
 
     // Add a simple animation to project items when they come into view
